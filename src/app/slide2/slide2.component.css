@@ -1,0 +1,20 @@
+* {
+  font-family: 'Ubuntu Mono';
+}
+
+.ui.card {
+  width: 45vw;
+  font-size: 1.3em;
+}
+
+.description ul li {
+  font-size: 1.4em;
+}
+
+.social {
+  padding: 30px;
+}
+
+.social .item .content {
+  font-size: 1.4em;
+}

@@ -1,3 +1,22 @@
-<h1>
-  {{title}}
-</h1>
+<div class="ui centered grid">
+  <div class="six column row">
+    <div *ngIf="currentIndex !== 0" class="left floated column">
+      <button class="ui centered labeled icon button" (click)="goPrevious()">
+        <i class="arrow circle left icon"></i>
+        Previous
+      </button>
+    </div>
+    <div *ngIf="currentIndex !== (routes.length - 1)" class="right floated column">
+      <button class="ui centered right labeled icon button" (click)="goNext()">
+        <i class="arrow circle right icon"></i>
+        Next
+      </button>
+    </div>
+  </div>
+  <div class="one column row">
+    <h1 class="banner">Creating Reusable Web Components</h1>
+  </div>
+  <div class="row">
+    <router-outlet></router-outlet>
+  </div>
+</div>

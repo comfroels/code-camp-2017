@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #5f6775;
+}
+
+* {
+  color: #58BABA;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+
+li {
+  list-style: none;
+  font-size: 1.4em;
+  padding: 30px;
+}

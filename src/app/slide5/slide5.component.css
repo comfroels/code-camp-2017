@@ -1,0 +1,9 @@
+* {
+  font-family: 'Ubuntu Mono';
+}
+
+li {
+  font-size: 1.4em;
+  list-style: none;
+  padding: 20px;
+}
