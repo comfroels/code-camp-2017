@@ -32,7 +32,12 @@ export class AppComponent {
     'slide22',
     'slide23',
     'slide24',
-    'slide25'
+    'slide25',
+    'slide26',
+    'slide27',
+    'slide28',
+    'slide29',
+    'slide30'
   ];
   currentIndex;
   constructor(private router: Router) {

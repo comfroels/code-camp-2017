@@ -30,6 +30,11 @@ import { Slide22Component } from './slide22/slide22.component';
 import { Slide23Component } from './slide23/slide23.component';
 import { Slide24Component } from './slide24/slide24.component';
 import { Slide25Component } from './slide25/slide25.component';
+import { Slide26Component } from './slide26/slide26.component';
+import { Slide27Component } from './slide27/slide27.component';
+import { Slide28Component } from './slide28/slide28.component';
+import { Slide29Component } from './slide29/slide29.component';
+import { Slide30Component } from './slide30/slide30.component';
 
 const appRoutes: Routes = [
   { path: 'slide1', component: Slide1Component },
@@ -57,6 +62,11 @@ const appRoutes: Routes = [
   { path: 'slide23', component: Slide23Component },
   { path: 'slide24', component: Slide24Component },
   { path: 'slide25', component: Slide25Component },
+  { path: 'slide26', component: Slide26Component },
+  { path: 'slide27', component: Slide27Component },
+  { path: 'slide28', component: Slide28Component },
+  { path: 'slide29', component: Slide29Component },
+  { path: 'slide30', component: Slide30Component },
   { path: '', redirectTo: 'slide1', pathMatch: 'full' }
 ];
 
@@ -87,7 +97,12 @@ const appRoutes: Routes = [
     Slide22Component,
     Slide23Component,
     Slide24Component,
-    Slide25Component
+    Slide25Component,
+    Slide26Component,
+    Slide27Component,
+    Slide28Component,
+    Slide29Component,
+    Slide30Component
   ],
   imports: [
     BrowserModule,
